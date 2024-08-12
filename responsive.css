@@ -1,0 +1,13 @@
+@media screen and (max-width:576px) {
+    .nav-son3{
+        display: block;
+        margin: 15px 20px;
+        color: rgb(255, 255, 255);
+    }
+    .nav-son1{
+        margin: 0px 20px;
+    }
+    .nav-son2{
+        display: none;
+    }
+}
