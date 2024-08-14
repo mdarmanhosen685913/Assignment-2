@@ -16,7 +16,6 @@
 /* navbar ends */
 
 /* banner starts */
-
 @media screen and (max-width:576px) {
     .banner-main{
         flex-direction: column;
@@ -61,3 +60,22 @@
         height: 60px;
     }
 /* banner ends */
+/* footer starts */
+    .footer-first-class{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        margin: 0px 20px;
+    }
+    .ft-son2 , .ft-son3 , .ft-son1{
+        width: 100%;
+        text-align: left;
+    }
+    .footer-last-class{
+        text-align: left;
+    }
+    .footer-last{
+        margin: 20px 18px;
+    }
+/* footer ends */
