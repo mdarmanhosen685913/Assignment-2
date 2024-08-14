@@ -238,10 +238,101 @@
     font-weight: 400;
 }
 /* Change Your Habits part ends */
+/* team part starts */
+.team-main{
+    background: rgb(17, 17, 17);
+    padding-bottom: 70px;
+}
+.team-head{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 42px;
+        font-weight: 800;
+        line-height: 120%;
+        text-align: center;
+    }
+.team-d{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+.team-container{
+    border-radius: 15px;
+    width: 72%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 50px auto 0px;
+    position: relative;
+}
+.trainer-1{
+    position: absolute;
+    left: 5%;
+    top: 38%;
+}
+.trainer-2{
+    position: absolute;
+    top: 38%;
+    left: 38%;
+}
+.trainer-3{
+    position: absolute;
+    top: 38%;
+    left: 72%;
+}
+.trainer-4{
+    position: absolute;
+    top: 88%;
+    left: 5%;
+}
+.trainer-5{
+    position: absolute;
+    top: 88%;
+    left: 38%;
+}
+.trainer-6{
+    position: absolute;
+    top: 88%;
+    left: 72%;
+}
+.trainer-head{
+    color: white;
+    font-weight: 900;
+    font-family: Inter;
+    font-size: 18px;
+    text-align: left;
+}
+.trainer-d{
+    color: whitesmoke;
+    font-weight: 400;
+    font-family: Inter;
+    font-size: 9px;
+    text-align: left;
+}
+.team-son1 , .team-son2 {
+    display: flex;
+    justify-content: center;
+}
+.team-son1 > img{
+    padding: 15px 15px 0px 15px;
+}
+.team-son2 > img{
+    padding: 15px 15px 15px 15px;
+}
+.team-son1 > img ,.team-son2 > img {
+    width: 33%;
+    border-radius: 22px;
+}
+#img-team{
+    padding-right: 0px;
+}
+/* team part ends */
 /* unique part starts  */
 .optional-main{
     background: rgb(17, 17, 17);
     opacity: 0.8;
+    padding: 30px;
 }
 .optional-head{
     margin: 0px 30px;

@@ -69,7 +69,7 @@
 
     .section-container{
         flex-direction: column;
-        margin: 30px auto ;
+        margin: 30px auto 0px;
     }
     .section-d{
         margin: 0px 11px;
@@ -82,7 +82,52 @@
         
     }
     /* Change Your Habits part ends */
-
+/* team part starts */
+.team-container{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.team-son1 , .team-son2 {
+    flex-direction: column;
+}
+.team-son1 > img ,.team-son2 > img {
+    width: 100%;
+}
+#img-team{
+    padding-right: 15px;
+}
+.trainer-1{
+    position: absolute;
+    left: 10%;
+    top: 14%;
+}
+.trainer-2{
+    position: absolute;
+    top:30%;
+    left: 10%;
+}
+.trainer-3{
+    position: absolute;
+    top: 48%;
+    left: 10%;
+}
+.trainer-4{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+.trainer-5{
+    position: absolute;
+    top: 79%;
+    left: 10%;
+}
+.trainer-6{
+    position: absolute;
+    top: 96%;
+    left: 10%;
+}
+/* team part ends */
 /* footer starts */
     .footer-first-class{
         flex-direction: column;
