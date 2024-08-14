@@ -37,15 +37,16 @@
     }
     .img-card2{
         position: absolute;
-        bottom: 42%;
-        left: 6%;
-        width: 175px;
+        bottom: 40%;
+        left: 4%;
+        width: 180;
         height: 85px;
     }
     .play-icon{
         position: absolute;
-        top: 47%;
-        left: 20%;
+        top: 50%;
+        left: 15%;
+        
     }
     .img-card1{
         position: absolute;
@@ -60,11 +61,27 @@
         height: 50px;
     }
     .bn-btn2 , .bn-btn1 {
-        padding: 2px 10px;
+        padding: 2px 16px;
         font-size: 15px;
     }
 /* banner ends */
+/* Change Your Habits part starts */
 
+    .section-container{
+        flex-direction: column;
+        margin: 30px auto ;
+    }
+    .section-d{
+        margin: 0px 11px;
+    }
+    .section-head{
+        padding-top: 10px;
+    }
+    .section-son1 , .section-son2 , .section-son3 , .section-son4 {
+        width: 100%;
+        
+    }
+    /* Change Your Habits part ends */
 
 /* footer starts */
     .footer-first-class{

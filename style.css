@@ -186,8 +186,59 @@
     border-radius: 50%;
 }
 /* banner ends */
+/* Change Your Habits part starts */
+.section-main{
+    background: rgb(17, 17, 17);
+}
+.section-head{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: center;
+    padding: 85px 0px 10px 0px;
+}
+.section-d{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    padding: 0px 0px 10px;
+}
+.section-son1 , .section-son2 , .section-son3 , .section-son4 {
+    width: 25%;
 
-/* optional starts  */
+}
+.son-1-img , .son-2-img , .son-3-img ,.son-4-img{
+    border: 1px solid ;
+    border-radius: 50%;
+}
+.section-container{
+    display: flex;
+    margin: 30px 150px 0px 150px;
+    text-align: center;
+    gap: 40px;
+}
+.son-h1 , .son-h2 , .son-h3 , .son-h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.son-p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 85px;
+    font-weight: 400;
+}
+/* Change Your Habits part ends */
+/* unique part starts  */
 .optional-main{
     background: rgb(17, 17, 17);
     opacity: 0.8;
@@ -204,10 +255,11 @@
 }
 .optional-d{
     color: whitesmoke;
-    padding: 15px;
-    padding-bottom: 22px;
+    padding: 20px;
+    padding-bottom: 30px;
     background-color: black;
     text-align: justify;
+    line-height: 150%;
     margin: 0px 30px;
     font-family: Inter;
     font-size: 30;
@@ -216,7 +268,7 @@
 .head-main{
     color: rgb(230, 83, 60);
 }
-/* optional ends */
+/* unique part ends */
 /* footer start */
 .footer-main{
     background: rgb(17,17, 17, 0.9);
