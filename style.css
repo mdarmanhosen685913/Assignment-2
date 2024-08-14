@@ -237,6 +237,63 @@
     padding-bottom: 85px;
     font-weight: 400;
 }
+/* second banner part stars */
+.bg-main{
+    background-color: rgb(17, 17, 17);
+    padding-bottom: 60px;
+}
+.sb-button{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 10px 40px;
+    text-align: center;
+    border-radius: 36px;
+    border: none;
+    background: rgb(230, 83, 60);
+}
+.sb-d{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding-bottom: 34px;
+}
+.second-banner{
+    margin: 0px 135px;
+    border-radius: 20px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+}
+.sb-son1 , .sb-son2{
+    width: 50%;
+    padding: 40px 54px;
+}
+.sb-son2{
+    padding: 30px;
+    
+}
+.sb-img{
+    margin-left: 75px;
+    border-radius: 20px;
+    width: 310px;
+    height: 260px;
+}
+.sb-head{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: left;
+    padding-bottom: 14px;
+}
+/* second banner part ends */
 /* Change Your Habits part ends */
 /* team part starts */
 .team-main{
