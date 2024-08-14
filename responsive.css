@@ -1,3 +1,5 @@
+/* navbar starts */
+
 @media screen and (max-width:576px) {
     .nav-son3{
         display: block;
@@ -11,3 +13,51 @@
         display: none;
     }
 }
+/* navbar ends */
+
+/* banner starts */
+
+@media screen and (max-width:576px) {
+    .banner-main{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #bn-son1{
+        margin: 6px;
+        padding: 15px;
+        line-height: 100%;
+    }
+    .bn-son{
+        margin: 0% auto;
+        width: 80%;
+
+    }
+    .bn-son img{
+        width: 100%;
+    }
+    .img-card2{
+        position: absolute;
+        bottom: 42%;
+        left: 6%;
+        width: 175px;
+        height: 85px;
+    }
+    .play-icon{
+        position: absolute;
+        top: 48%;
+        left: 19%;
+    }
+    .img-card1{
+        position: absolute;
+        top: 10%;
+        left: 55%;
+        width: 172px;
+        height: 82px;
+    }
+    .button-class{
+        display: flex;
+        width: 400px;
+        height: 60px;
+    }
+/* banner ends */
