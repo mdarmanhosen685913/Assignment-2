@@ -187,6 +187,36 @@
 }
 /* banner ends */
 
+/* optional starts  */
+.optional-main{
+    background: rgb(17, 17, 17);
+    opacity: 0.8;
+}
+.optional-head{
+    margin: 0px 30px;
+    text-align: center;
+    color: aliceblue;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 9px;
+    background-color: black;
+}
+.optional-d{
+    color: whitesmoke;
+    padding: 15px;
+    padding-bottom: 22px;
+    background-color: black;
+    text-align: justify;
+    margin: 0px 30px;
+    font-family: Inter;
+    font-size: 30;
+    font-weight: 500;
+}
+.head-main{
+    color: rgb(230, 83, 60);
+}
+/* optional ends */
 /* footer start */
 .footer-main{
     background: rgb(17,17, 17, 0.9);
