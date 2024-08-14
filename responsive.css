@@ -137,17 +137,16 @@
 }
 .sb-son2{
     width: 100%;
-    padding: 0px;;
+    padding: 25px;
 }
 .sb-son1 {
     width: 100%;
     padding: 20px;
 }
 .sb-img{
-    margin: 32px 50px;
+    margin: 32px 0px;
     border-radius: 20px;
-    width: 250px;
-    height: 200px;
+    width: 100%;
 }
 /* second banner part ends */
 /* footer starts */
