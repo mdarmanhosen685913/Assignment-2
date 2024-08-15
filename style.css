@@ -471,24 +471,48 @@
     opacity: 0.8;
     padding: 30px;
 }
+.optional-div{
+    max-width: 1060px;
+    margin: 0px auto;
+    background-color: black;
+}
+.unique-btn{
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+.unique-btn2{
+    background: none;
+    border: 1px solid rgba(245, 245, 245, 0.276);
+    color: rgb(230, 83, 60);
+    padding: 10px 30px;
+    font-family: Inter;
+    font-size: 14px;
+    border-radius: 25px;
+    margin-left: 8px;
+}
+.unique-btn1{
+    color: whitesmoke;
+    background-color: rgb(230, 83, 60);
+    padding: 10px 30px;
+    font-family: Inter;
+    font-size: 14px;
+    border-radius: 25px;
+    margin-right: 8px;
+}
 .optional-head{
-    margin: 0px 30px;
     text-align: center;
     color: aliceblue;
     font-family: Inter;
     font-size: 40px;
     font-weight: 800;
-    padding: 9px;
-    background-color: black;
+    padding-top: 25px;
 }
 .optional-d{
     color: whitesmoke;
-    padding: 20px;
-    padding-bottom: 30px;
-    background-color: black;
+    padding: 30px;
     text-align: justify;
     line-height: 150%;
-    margin: 0px 30px;
     font-family: Inter;
     font-size: 30;
     font-weight: 500;
