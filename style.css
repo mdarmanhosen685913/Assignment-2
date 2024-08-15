@@ -97,6 +97,9 @@
 .button-class{
     margin-right: 180px;
 }
+.button-class-2{
+    display: none;
+}
 .bn-btn1{
     border-radius: 42px;
     padding: 10px 28px;
@@ -252,14 +255,15 @@
 .bg-main{
     background-color: rgb(17, 17, 17);
     padding-bottom: 60px;
+    
 }
 .sb-button{
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 600;
-    line-height: 18px;
-    padding: 10px 40px;
+    line-height: 24px;
+    padding: 15px 70px;
     text-align: center;
     border-radius: 36px;
     border: none;
@@ -268,40 +272,48 @@
 .sb-d{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 24px;
     text-align: left;
-    padding-bottom: 34px;
+    padding-bottom: 45px;
 }
 .second-banner{
-    margin: 0px 135px;
+    max-width: 1060px;
+    margin: 0px auto;
     border-radius: 20px;
     background: rgb(34, 34, 34);
     display: flex;
     justify-content: space-between;
 }
-.sb-son1 , .sb-son2{
+.sb-son1 {
     width: 50%;
-    padding: 40px 54px;
+    padding: 40px 55px;
 }
 .sb-son2{
     padding: 30px;
 }
+.sb-img-container{
+    width: 380px;
+    height: 360px;
+    margin-left: 80px;
+    overflow: hidden;
+}
 .sb-img{
-    margin-left: 75px;
-    border-radius: 20px;
-    width: 310px;
-    height: 260px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    object-position: 68% 33%;
 }
 .sb-head{
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 50px;
+    font-weight: 900;
     line-height: 120%;
     text-align: left;
-    padding-bottom: 14px;
+    padding-bottom: 20px;
 }
 /* second banner part ends */
 /* bmi cal. part starts */

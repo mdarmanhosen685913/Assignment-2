@@ -81,14 +81,17 @@
         width: 140px;
         height: 75px;
     }
-    .button-class{
-        display: flex;
+    .button-class-2{
+        display: block;
+        margin: 0px auto;
         
-        margin: 0px;
+    }
+    .button-class{
+        display: none;
     }
     .bn-btn2 , .bn-btn1 {
-        padding: 10px 18px;
-        font-size: 12px;
+        padding: 15px 25px;
+        font-size: 20px;
     }
 /* banner ends */
 /* Change Your Habits part starts */
@@ -163,16 +166,36 @@
 }
 .sb-son2{
     width: 100%;
-    padding: 25px;
+    padding: 20px auto;
+    padding-top: 0px;
+}
+.sb-button{
+    margin: 0px;
+    padding: 10px 100px;
+    font-size: 16px;
+}
+.sb-head{
+    font-size: 30px;
+}
+.sb-d{
+    padding-bottom: 25px;
+    font-size: 12px;
 }
 .sb-son1 {
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
+}
+.sb-img-container{
+    margin: 0px;
+    width: 260px;
+    height: 240px;
+    border-radius: 10px;
 }
 .sb-img{
     margin: 32px 0px;
-    border-radius: 20px;
     width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
 /* second banner part ends */
 /* footer starts */
