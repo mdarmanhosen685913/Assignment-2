@@ -421,8 +421,6 @@
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0px;
     text-align: left;
     border: none;
     padding: 10px 180px 10px 18px;
@@ -435,15 +433,13 @@
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0px;
     text-align: left;
     border: none;
     padding: 10px 292px 10px 18px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
 }
-.calculat-btn{
+.calculate-btn{
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 16px;
