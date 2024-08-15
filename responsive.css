@@ -1,6 +1,9 @@
 /* navbar starts */
 
-@media screen and (max-width:576px) {
+@media screen and (min-width:300px) and (max-width:576px) {    
+    .nav-son1{
+        font-size: 40px;
+    }
     .nav-son3{
         display: block;
         margin: 15px 20px;
@@ -12,15 +15,31 @@
     .nav-son2{
         display: none;
     }
-}
 /* navbar ends */
 
 /* banner starts */
-@media screen and (max-width:576px) {
     .banner-main{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+    }
+    .cd1-head{
+        font-size: 28px;
+        padding: 0px 45px 0px 0px;
+    }
+    .cd1-d{
+        padding: 0px 10px 0px 0px;
+        font-size: 11px;
+    }
+    .bn-head{
+        font-size: 40px;
+        line-height: 120%;
+    }
+    .bn-p{
+        font-size: 10px;;
+    }
+    .banner-span{
+        font-size: 75px;
     }
     #bn-son1{
         margin: 6px;
@@ -34,34 +53,39 @@
     }
     .bn-son img{
         width: 100%;
+        margin: 0px 10px;
     }
     .img-card2{
         position: absolute;
-        bottom: 40%;
-        left: 4%;
-        width: 180;
-        height: 85px;
+        bottom: 41%;
+        left: 0%;
+        width: 150px;
+        height: 70px;
+    }
+    .card-box{
+        border: 16px solid rgb(230, 83, 60);
+        margin: 20px 2px 20px auto;
+        border-radius: 50%;
     }
     .play-icon{
         position: absolute;
-        top: 50%;
-        left: 15%;
+        top: 51%;
+        left: 8%;
         
     }
     .img-card1{
         position: absolute;
         top: 10%;
-        left: 55%;
-        width: 145px;
+        left: 60%;
+        width: 140px;
         height: 75px;
     }
     .button-class{
         display: flex;
-        width: 300px;
-        height: 50px;
+        width: 120%;
     }
     .bn-btn2 , .bn-btn1 {
-        padding: 2px 16px;
+        padding: 12px 24px;
         font-size: 15px;
     }
 /* banner ends */
@@ -168,3 +192,5 @@
         margin: 20px 18px;
     }
 /* footer ends */
+
+}
