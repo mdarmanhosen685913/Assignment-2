@@ -255,24 +255,28 @@
         justify-content: flex-start;
         align-items: flex-start;
         text-align: left;
-        margin: 0px auto;
+        margin: 0px;
+        padding-left: 15px;
     }
     .ft-son2 , .ft-son3 , .ft-son1{
         width: 100%;
-        text-align: left;
+        margin: 0px;
     }
-    .ft-son2 , .ft-son3 , .ft-son1{
-        margin: 0px 5%;
+    .ft-son3{
+        padding-bottom: 40px;
     }
     .footer-last-class{
         text-align: left;
+        padding: 0px 15px;
     }
     .footer-last{
-        margin: 8% 18px;
+        margin: 0px;
+        padding: 0px;
     }
     .footer-son2{
-        padding-top: 0%;
-        padding-bottom: 12%;
+        padding: 30px 5px;
+        margin: 0px;
+        font-size: 20px;
     }
 /* footer ends */
 
