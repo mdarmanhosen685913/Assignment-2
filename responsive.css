@@ -212,8 +212,7 @@
     margin: 0px;
 }
 .cal-son2{
-    margin: 0px;
-    margin-left: 15px;
+    margin: 0px 5%;
 }
 .calculator-head{
     padding: 0px;
@@ -232,16 +231,16 @@
 #Age , #Height , #Weight{
     margin-left: auto;
     margin-right: auto;
-    padding: 8px 0px 8px 5px;
+    padding: 10px 0px 10px 8px;
     font-size: 12px;
 }
 #Sex{
     font-size: 12px;
-    padding: 8px 118px 8px 5px;
+    padding: 10px 118px 10px 8px;
 }
 #Select{
     font-size: 12px;
-    padding: 8px 175px 8px 5px;
+    padding: 10px 177px 10px 8px;
 }
 .calculate-btn{
     padding: 16px 75px;
