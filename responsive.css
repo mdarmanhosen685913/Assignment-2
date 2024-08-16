@@ -257,6 +257,7 @@
         text-align: left;
         margin: 0px;
         padding-left: 15px;
+        display: none;
     }
     .ft-son2 , .ft-son3 , .ft-son1{
         width: 100%;
@@ -268,6 +269,7 @@
     .footer-last-class{
         text-align: left;
         padding: 0px 15px;
+        display: none;
     }
     .footer-last{
         margin: 0px;
