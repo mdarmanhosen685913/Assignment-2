@@ -212,7 +212,8 @@
     margin: 0px;
 }
 .cal-son2{
-    margin: 0px 5%;
+    margin: 0px;
+    margin-left: 10px;
 }
 .calculator-head{
     padding: 0px;
@@ -231,16 +232,16 @@
 #Age , #Height , #Weight{
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 0px 10px 8px;
+    padding: 8px 0px 8px 5px;
     font-size: 12px;
 }
 #Sex{
     font-size: 12px;
-    padding: 10px 118px 10px 8px;
+    padding: 8px 118px 8px 5px;
 }
 #Select{
     font-size: 12px;
-    padding: 10px 177px 10px 8px;
+    padding: 8px 175px 8px 5px;
 }
 .calculate-btn{
     padding: 16px 75px;
@@ -254,17 +255,24 @@
         justify-content: flex-start;
         align-items: flex-start;
         text-align: left;
-        margin: 0px 20px;
+        margin: 0px auto;
     }
     .ft-son2 , .ft-son3 , .ft-son1{
         width: 100%;
         text-align: left;
     }
+    .ft-son2 , .ft-son3 , .ft-son1{
+        margin: 0px 5%;
+    }
     .footer-last-class{
         text-align: left;
     }
     .footer-last{
-        margin: 20px 18px;
+        margin: 8% 18px;
+    }
+    .footer-son2{
+        padding-top: 0%;
+        padding-bottom: 12%;
     }
 /* footer ends */
 

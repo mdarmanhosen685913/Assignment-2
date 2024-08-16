@@ -608,14 +608,23 @@
 }
 .footer-first-class{
     display: flex;
-    margin: 0px 115px 60px 115px;
+    margin: 0px auto 60px;
     padding-top: 55px;
+    max-width: 1060px;
 }
 .ft-son1{
     width: 50%;
 }
 .ft-son2 , .ft-son3 {
     width: 25%;
+}
+.ft-son2{
+    margin: 0px;
+    margin-left: 22%;
+}
+.ft-son3{
+    margin: 0px auto;
+    margin-left: 22%;
 }
 .ft-son1-head{
     color: rgb(230, 83, 60);
@@ -653,11 +662,14 @@
 }
 .footer-last-class{
     text-align: center; 
+    max-width: 1060px;
+    margin: 0px auto;
+
 }
 .footer-last{
     border-top: 2px solid
     rgba(255, 255, 255, 0.1);
-    margin: 0px 115px;
+    margin: 0px auto;
 }
 .footer-son2{
     color: rgba(255, 255, 255, 0.5);
